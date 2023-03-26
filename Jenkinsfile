@@ -22,7 +22,7 @@ java --version'''
 
     stage('build with Maven') {
       steps {
-        sh 'mvn complie test package'
+        sh 'mvn compile test package'
       }
     }
 
